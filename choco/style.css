@@ -1,0 +1,74 @@
+*{
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Rampart One', cursive;
+  font-family: 'Zen Antique', serif;
+/*   border: 1px solid; */
+}
+
+.navbar-brand{
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Oleo Script', cursive;
+font-family: 'Rampart One', cursive;
+font-family: 'Zen Antique', serif;
+}
+
+.pet{
+  padding-top: 40px;
+  line-height: 30px;
+}
+
+.picture{
+  padding-top: 120px;
+}
+
+.name{
+  color: #e8731a;
+}
+
+.notice{
+  padding-top: 50px;
+}
+
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+
+.copyright{
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+  background: #db946e; 
+  height: 120px;
+  margin-top: 40px;
+}
